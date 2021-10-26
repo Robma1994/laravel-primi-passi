@@ -15,10 +15,8 @@
             </div>
 
             <div class="links">
-                <a href="/">Homepage</a>
-                <a href="/giochi">Giochi</a>
-                <a href="">Hardware</a>
-                <a href="">Fai acquisti</a>
+                <a href="{{ route('home') }}">Homepage</a>
+                <a href="{{ route('play') }}">Giochi</a>
             </div>
 
         </div>
