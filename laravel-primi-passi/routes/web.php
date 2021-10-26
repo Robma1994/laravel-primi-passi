@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 //web.php è il nostro vigile. 
 Route::get('/', function () {
+    
     return view('homepage');
+});
+Route::get('/giochi', function () {
+    return view('giochi');
+    
 });

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Primi passi con Laravel</title>
+        <title>Sezione Giochi</title>
 
         
         
@@ -11,14 +11,12 @@
     <body>
         <div class="content">
             <div class="title m-b-md">
-                Hello world
+                Sono la sezione Giochi
             </div>
 
             <div class="links">
                 <a href="/">Homepage</a>
                 <a href="/giochi">Giochi</a>
-                <a href="">Hardware</a>
-                <a href="">Fai acquisti</a>
             </div>
 
         </div>
