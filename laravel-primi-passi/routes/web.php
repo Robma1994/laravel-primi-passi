@@ -14,7 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 //web.php è il nostro vigile. 
 Route::get('/', function () {
-    return view('homepage');
+    $user = [
+        'id' => '1',
+        'name' => 'Rosita',
+        'surname' => 'Pippotti',
+        'links' => [
+            'Github',
+            'Instagram',
+            'Linkedin'
+        ]
+    ];
+    return view('homepage', $user);
 })->name('home');
 
 Route::get('/giochi', function () {

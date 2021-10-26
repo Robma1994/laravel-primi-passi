@@ -11,9 +11,18 @@
     <body>
         <div class="content">
             <div class="title m-b-md">
-                Hello world
+                <h1> {{ $name }} {{ $surname }}</h1>
             </div>
-
+            <h2>Link utili:</h2>
+            <div>
+                @foreach($links as $link)
+                    <ul>
+                        <li>
+                            <a href=""> {{$link}} </a>
+                        </li>
+                    </ul>
+                @endforeach
+            </div>
             <div class="links">
                 <a href="{{ route('home') }}">Homepage</a>
                 <a href="{{ route('play') }}">Giochi</a>
